@@ -384,7 +384,7 @@ img {
 .home__title {
   display: inline-flex;
   align-items: center;
-  white-space: nowrap; /* prevents wrapping to a new line */
+  white-space: nowrap;
 }
 
 .home__hand {
@@ -412,9 +412,10 @@ img {
     display: flex;
     justify-content: center;
     width: 100%;
+    white-space: normal; /* allow it to wrap/shrink instead of overflowing */
+    text-align: center;
   }
 }
-
 .home__subtitle {
   position: relative;
   font-size: var(--h3-font-size);
