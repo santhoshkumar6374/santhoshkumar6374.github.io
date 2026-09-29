@@ -416,7 +416,10 @@ img {
     text-align: center;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d09c8a363eaf8b2389440cf934b5cf43ee810aca
 .home__subtitle {
   position: relative;
   font-size: var(--h3-font-size);
